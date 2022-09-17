@@ -1,0 +1,55 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+    background: #808dd7;
+    line-height: 40px;
+}
+
+.mobile-menu {
+    list-style-type: none;
+    height: 200px;
+    width: 150px;
+    text-align: left;
+    position: absolute;
+    top: 75px;
+    transition: 1s left;
+    background: #808dd7;
+}
+
+.menu>li,
+.menu a {
+    color: white;
+    display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.mobile-menu>li {
+    color: white;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.menu-active {
+    color: red !important;
+    font-size: 25 !important;
+    font-style: italic;
+}
+
+.menu-active a {
+    color: red !important;
+}
+
+.mobile-menu-btn {
+    position: absolute;
+    right: 0;
+    top: 75px
+}
